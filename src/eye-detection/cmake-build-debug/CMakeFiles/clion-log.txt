@@ -1,0 +1,932 @@
+/usr/share/clion-2017.3.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/victorvianna/Desktop/FaceTweaking/src/eye-detection
+-- C++11 activated.
+-- Configuring done
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    sqlite_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:132 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    xml_parser_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:128 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    train_object_detector.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:124 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    timer_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:123 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    threads_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:122 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    threaded_object_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:121 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    svr_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:118 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    surf_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:111 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    sockstreambuf_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:109 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    sockets_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:108 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    server_iostream_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:107 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    sequence_segmenter_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:105 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    sequence_labeler_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:104 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    rvm_regression_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:103 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    quantum_computing_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:98 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    pipe_ex_2.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:97 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    pipe_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:96 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    optimization_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:94 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    one_class_classifiers_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:93 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    object_detector_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:92 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    fhog_object_detector_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:62 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    empirical_kernel_map_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:58 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    face_detection_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:59 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    dir_nav_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:57 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    svm_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:113 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    kcentroid_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:70 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    svm_pegasos_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:114 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    kkmeans_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:71 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    thread_function_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:119 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    using_custom_kernels_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:126 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    matrix_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:82 (add_example)
+
+
+CMake Error at CMakeLists.txt:41 (add_executable):
+  Cannot find source file:
+
+    webcam_face_pose_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    train_shape_predictor_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:125 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    member_function_pointer_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:85 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    svm_sparse_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:116 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    3d_point_cloud_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:48 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    server_http_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:106 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    rank_features_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:100 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    multithreaded_object_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:90 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    fhog_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:61 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    running_stats_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:101 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    file_to_code_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:63 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    multiclass_classification_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:89 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    bayes_net_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:49 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    object_detector_advanced_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:91 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    video_tracking_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:127 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    thread_pool_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:120 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    model_selection_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:87 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    image_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:67 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    gui_api_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:65 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    bayes_net_from_disk_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:50 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    graph_labeling_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:64 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    bsp_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:53 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    face_landmark_detection_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:60 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    bayes_net_gui_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:51 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    config_reader_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:55 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    compress_stream_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:54 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    svm_struct_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:117 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    parallel_for_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:95 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    mlp_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:86 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    hough_transform_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:66 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    logger_custom_output_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:79 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    svm_rank_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:115 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    svm_c_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:112 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    bridge_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:52 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    integrate_function_adapt_simp_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:68 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    iosockstream_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:69 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    queue_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:99 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    krls_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:72 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    least_squares_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:77 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    std_allocator_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:110 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    custom_trainer_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:56 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    logger_ex_2.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:81 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    krls_filter_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:73 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    krr_regression_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:75 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    rvm_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:102 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    learning_to_track_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:76 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    mpc_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:30 (add_example)
+  CMakeLists.txt:88 (add_gui_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    linear_manifold_regularizer_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:78 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    krr_classification_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:74 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    logger_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:80 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    matrix_expressions_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:83 (add_example)
+
+
+CMake Error at CMakeLists.txt:22 (add_executable):
+  Cannot find source file:
+
+    max_cost_assignment_ex.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+Call Stack (most recent call first):
+  CMakeLists.txt:84 (add_example)
+
+
+-- Generating done
+-- Build files have been written to: /home/victorvianna/Desktop/FaceTweaking/src/eye-detection/cmake-build-debug
