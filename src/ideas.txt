@@ -1,5 +1,0 @@
-face landmark detection
-
-face keypoint detection
-
-face alignment

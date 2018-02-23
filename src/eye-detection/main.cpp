@@ -1,5 +1,56 @@
+// The contents of this file are in the public domain. See LICENSE_FOR_EXAMPLE_PROGRAMS.txt
+/*
+
+    This example program shows how to find frontal human faces in an image and
+    estimate their pose.  The pose takes the form of 68 landmarks.  These are
+    points on the face such as the corners of the mouth, along the eyebrows, on
+    the eyes, and so forth.
+
+
+
+    The face detector we use is made using the classic Histogram of Oriented
+    Gradients (HOG) feature combined with a linear classifier, an image pyramid,
+    and sliding window detection scheme.  The pose estimator was created by
+    using dlib's implementation of the paper:
+       One Millisecond Face Alignment with an Ensemble of Regression Trees by
+       Vahid Kazemi and Josephine Sullivan, CVPR 2014
+    and was trained on the iBUG 300-W face landmark dataset (see
+    https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/):
+       C. Sagonas, E. Antonakos, G, Tzimiropoulos, S. Zafeiriou, M. Pantic.
+       300 faces In-the-wild challenge: Database and results.
+       Image and Vision Computing (IMAVIS), Special Issue on Facial Landmark Localisation "In-The-Wild". 2016.
+    You can get the trained model file from:
+    http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2.
+    Note that the license for the iBUG 300-W dataset excludes commercial use.
+    So you should contact Imperial College London to find out if it's OK for
+    you to use this model file in a commercial product.
+
+
+    Also, note that you can train your own models using dlib's machine learning
+    tools.  See train_shape_predictor_ex.cpp to see an example.
+
+
+
+
+    Finally, note that the face detector is fastest when compiled with at least
+    SSE2 instructions enabled.  So if you are using a PC with an Intel or AMD
+    chip then you should enable at least SSE2 instructions.  If you are using
+    cmake to compile this program you can enable them by using one of the
+    following commands when you create the build project:
+        cmake path_to_dlib_root/examples -DUSE_SSE2_INSTRUCTIONS=ON
+        cmake path_to_dlib_root/examples -DUSE_SSE4_INSTRUCTIONS=ON
+        cmake path_to_dlib_root/examples -DUSE_AVX_INSTRUCTIONS=ON
+    This will set the appropriate compiler options for GCC, clang, Visual
+    Studio, or the Intel compiler.  If you are using another compiler then you
+    need to consult your compiler's manual to determine how to enable these
+    instructions.  Note that AVX is the fastest but requires a CPU from at least
+    2011.  SSE4 is the next fastest and is supported by most current machines.
+*/
+
 
 #include <dlib/image_processing/frontal_face_detector.h>
+#include <dlib/image_processing/render_face_detections.h>
+#include <dlib/image_processing.h>
 #include <dlib/gui_widgets.h>
 #include <dlib/image_io.h>
 #include <iostream>
@@ -13,42 +64,79 @@ int main(int argc, char** argv)
 {
     try
     {
+        // This example takes in a shape model file and then a list of images to
+        // process.  We will take these filenames in as command line arguments.
+        // Dlib comes with example images in the examples/faces folder so give
+        // those as arguments to this program.
         if (argc == 1)
         {
-            cout << "Give some image files as arguments to this program." << endl;
+            cout << "Call this program like this:" << endl;
+            cout << "./face_landmark_detection_ex shape_predictor_68_face_landmarks.dat faces/*.jpg" << endl;
+            cout << "\nYou can get the shape_predictor_68_face_landmarks.dat file from:\n";
+            cout << "http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2" << endl;
             return 0;
         }
 
+        // We need a face detector.  We will use this to get bounding boxes for
+        // each face in an image.
         frontal_face_detector detector = get_frontal_face_detector();
-        image_window win;
+        // And we also need a shape_predictor.  This is the tool that will predict face
+        // landmark positions given an image and face bounding box.  Here we are just
+        // loading the model from the shape_predictor_68_face_landmarks.dat file you gave
+        // as a command line argument.
+        shape_predictor sp;
+        deserialize(argv[1]) >> sp;
 
+
+        image_window win;
         // Loop over all the images provided on the command line.
-        for (int i = 1; i < argc; ++i)
+        for (int i = 2; i < argc; ++i)
         {
             cout << "processing image " << argv[i] << endl;
-            array2d<unsigned char> img;
+            array2d<rgb_pixel> img;
             load_image(img, argv[i]);
-            // Make the image bigger by a factor of two.  This is useful since
-            // the face detector looks for faces that are about 80 by 80 pixels
-            // or larger.  Therefore, if you want to find faces that are smaller
-            // than that then you need to upsample the image as we do here by
-            // calling pyramid_up().  So this will allow it to detect faces that
-            // are at least 40 by 40 pixels in size.  We could call pyramid_up()
-            // again to find even smaller faces, but note that every time we
-            // upsample the image we make the detector run slower since it must
-            // process a larger image.
+            // Make the image larger so we can detect small faces.
             pyramid_up(img);
 
             // Now tell the face detector to give us a list of bounding boxes
-            // around all the faces it can find in the image.
+            // around all the faces in the image.
             std::vector<rectangle> dets = detector(img);
-
             cout << "Number of faces detected: " << dets.size() << endl;
-            // Now we show the image on the screen and the face detections as
-            // red overlay boxes.
+
+            if(dets.size()>1)
+                cout<<"More than 1 face detected, errors may occur";
+
+
+            // Now we will go ask the shape_predictor to tell us the pose of
+            // each face we detected.
+            std::vector<full_object_detection> shapes;
+            for (unsigned long j = 0; j < dets.size(); ++j)
+            {
+                full_object_detection shape = sp(img, dets[j]);
+                cout << "number of parts: "<< shape.num_parts() << endl;
+
+                cout << "pixel position of first part:  " << shape.part(0) << endl;
+                cout << "pixel position of second part: " << shape.part(1) << endl;
+
+
+
+
+                // You get the idea, you can get all the face part locations if
+                // you want them.  Here we just store them in shapes so we can
+                // put them on the screen.
+                shapes.push_back(shape);
+            }
+
+            // Now let's view our face poses on the screen.
             win.clear_overlay();
             win.set_image(img);
-            win.add_overlay(dets, rgb_pixel(255,0,0));
+            //win.add_overlay(render_face_detections(shapes)); // prints the face detection
+
+            // We can also extract copies of each face that are cropped, rotated upright,
+            // and scaled to a standard size as shown here:
+            //dlib::array<array2d<rgb_pixel> > face_chips;
+            //extract_image_chips(img, get_face_chip_details(shapes), face_chips);
+            //win_faces.set_image(tile_images(face_chips));
 
             cout << "Hit enter to process the next image..." << endl;
             cin.get();
@@ -61,89 +149,5 @@ int main(int argc, char** argv)
     }
 }
 
+// ----------------------------------------------------------------------------------------
 
-/*
-#include "opencv2/objdetect.hpp"
-#include "opencv2/highgui.hpp"
-#include "opencv2/imgproc.hpp"
-
-#include <iostream>
-#include <stdio.h>
-
-using namespace std;
-using namespace cv;
-
-
-void detectAndDisplay( Mat frame );
-
-
-String face_cascade_name = "../haarcascade_frontalface_alt.xml";
-String eyes_cascade_name = "../haarcascade_eye_tree_eyeglasses.xml";
-CascadeClassifier face_cascade;
-CascadeClassifier eyes_cascade;
-String window_name = "Capture - Face detection";
-
-
-int main( void )
-{
-    VideoCapture capture;
-    Mat frame;
-
-    //-- 1. Load the cascades
-    if( !face_cascade.load( face_cascade_name ) ){ printf("--(!)Error loading face cascade\n"); return -1; };
-    if( !eyes_cascade.load( eyes_cascade_name ) ){ printf("--(!)Error loading eyes cascade\n"); return -1; };
-
-    //-- 2. Read the video stream
-    //capture.open( -1 );
-    //if ( ! capture.isOpened() ) { printf("--(!)Error opening video capture\n"); return -1; }
-
-    Mat image;
-    image = imread("../img.jpeg", CV_LOAD_IMAGE_COLOR);
-
-    if(! image.data )                              // Check for invalid input
-    {
-        cout <<  "Could not open or find the image" << std::endl ;
-        return -1;
-    }
-    //namedWindow( "Display window", WINDOW_AUTOSIZE );
-    //imshow("Display window", image);
-    detectAndDisplay( image );
-    waitKey(0);
-    return 0;
-}
-
-
-void detectAndDisplay( Mat frame )
-{
-    std::vector<Rect> faces;
-    Mat frame_gray;
-
-    cvtColor( frame, frame_gray, COLOR_BGR2GRAY );
-    equalizeHist( frame_gray, frame_gray );
-
-    //-- Detect faces
-    face_cascade.detectMultiScale( frame_gray, faces, 1.1, 2, 0|CASCADE_SCALE_IMAGE, Size(30, 30) );
-
-    for( size_t i = 0; i < faces.size(); i++ )
-    {
-        Point center( faces[i].x + faces[i].width/2, faces[i].y + faces[i].height/2 );
-        ellipse( frame, center, Size( faces[i].width/2, faces[i].height/2), 0, 0, 360, Scalar( 255, 0, 255 ), 4, 8, 0 );
-
-        Mat faceROI = frame_gray( faces[i] );
-        std::vector<Rect> eyes;
-
-        //-- In each face, detect eyes
-        eyes_cascade.detectMultiScale( faceROI, eyes, 1.1, 2, 0 |CASCADE_SCALE_IMAGE, Size(30, 30) );
-
-        for( size_t j = 0; j < eyes.size(); j++ )
-        {
-            Point eye_center( faces[i].x + eyes[j].x + eyes[j].width/2, faces[i].y + eyes[j].y + eyes[j].height/2 );
-            int radius = cvRound( (eyes[j].width + eyes[j].height)*0.25 );
-            circle( frame, eye_center, radius, Scalar( 255, 0, 0 ), 4, 8, 0 );
-            circle( frame, eye_center, 1, Scalar( 255, 0, 0 ), 4, 8, 0 );
-        }
-    }
-    //-- Show what you got
-    imshow( window_name, frame );
-}
-*/
