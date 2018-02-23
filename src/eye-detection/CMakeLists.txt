@@ -4,7 +4,12 @@ project(eye_detection)
 FIND_PACKAGE(OpenCV REQUIRED)
 add_subdirectory(/usr/lib/dlib-19.9/dlib dlib)
 set(CMAKE_CXX_STANDARD 11)
+
+
 add_executable(eye_detection main.cpp)
+#add_executable(eye_detection face_landmark_detection_ex.cpp)
+
+
 target_link_libraries(eye_detection ${OpenCV_LIBS})
 #link_libraries(eye_detection dlib)
 target_link_libraries(eye_detection dlib::dlib)
