@@ -57,38 +57,38 @@ include CMakeFiles/eye_detection.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/eye_detection.dir/flags.make
 
-CMakeFiles/eye_detection.dir/main.cpp.o: CMakeFiles/eye_detection.dir/flags.make
-CMakeFiles/eye_detection.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victorvianna/Desktop/FaceTweaking/src/eye-detection/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/eye_detection.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/eye_detection.dir/main.cpp.o -c /home/victorvianna/Desktop/FaceTweaking/src/eye-detection/main.cpp
+CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o: CMakeFiles/eye_detection.dir/flags.make
+CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o: ../FaceMorph/faceMorph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victorvianna/Desktop/FaceTweaking/src/eye-detection/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o -c /home/victorvianna/Desktop/FaceTweaking/src/eye-detection/FaceMorph/faceMorph.cpp
 
-CMakeFiles/eye_detection.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eye_detection.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victorvianna/Desktop/FaceTweaking/src/eye-detection/main.cpp > CMakeFiles/eye_detection.dir/main.cpp.i
+CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victorvianna/Desktop/FaceTweaking/src/eye-detection/FaceMorph/faceMorph.cpp > CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.i
 
-CMakeFiles/eye_detection.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eye_detection.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victorvianna/Desktop/FaceTweaking/src/eye-detection/main.cpp -o CMakeFiles/eye_detection.dir/main.cpp.s
+CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victorvianna/Desktop/FaceTweaking/src/eye-detection/FaceMorph/faceMorph.cpp -o CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.s
 
-CMakeFiles/eye_detection.dir/main.cpp.o.requires:
+CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o.requires:
 
-.PHONY : CMakeFiles/eye_detection.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o.requires
 
-CMakeFiles/eye_detection.dir/main.cpp.o.provides: CMakeFiles/eye_detection.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/eye_detection.dir/build.make CMakeFiles/eye_detection.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/eye_detection.dir/main.cpp.o.provides
+CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o.provides: CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o.requires
+	$(MAKE) -f CMakeFiles/eye_detection.dir/build.make CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o.provides.build
+.PHONY : CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o.provides
 
-CMakeFiles/eye_detection.dir/main.cpp.o.provides.build: CMakeFiles/eye_detection.dir/main.cpp.o
+CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o.provides.build: CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o
 
 
 # Object files for target eye_detection
 eye_detection_OBJECTS = \
-"CMakeFiles/eye_detection.dir/main.cpp.o"
+"CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o"
 
 # External object files for target eye_detection
 eye_detection_EXTERNAL_OBJECTS =
 
-eye_detection: CMakeFiles/eye_detection.dir/main.cpp.o
+eye_detection: CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o
 eye_detection: CMakeFiles/eye_detection.dir/build.make
 eye_detection: /usr/local/lib/libopencv_shape.so.3.2.0
 eye_detection: /usr/local/lib/libopencv_stitching.so.3.2.0
@@ -127,7 +127,7 @@ CMakeFiles/eye_detection.dir/build: eye_detection
 
 .PHONY : CMakeFiles/eye_detection.dir/build
 
-CMakeFiles/eye_detection.dir/requires: CMakeFiles/eye_detection.dir/main.cpp.o.requires
+CMakeFiles/eye_detection.dir/requires: CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o.requires
 
 .PHONY : CMakeFiles/eye_detection.dir/requires
 

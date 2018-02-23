@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/eye_detection.dir/main.cpp.o"
+  "CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o"
   "eye_detection.pdb"
   "eye_detection"
 )

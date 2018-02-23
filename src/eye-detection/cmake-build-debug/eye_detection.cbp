@@ -134,7 +134,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/victorvianna/Desktop/FaceTweaking/src/eye-detection/main.cpp">
+		<Unit filename="/home/victorvianna/Desktop/FaceTweaking/src/eye-detection/FaceMorph/faceMorph.cpp">
 			<Option target="eye_detection"/>
 		</Unit>
 		<Unit filename="/usr/lib/dlib-19.9/dlib/base64/base64_kernel_1.cpp">

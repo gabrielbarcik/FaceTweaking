@@ -136,32 +136,32 @@ dlib/fast:
 	$(MAKE) -f dlib/CMakeFiles/dlib.dir/build.make dlib/CMakeFiles/dlib.dir/build
 .PHONY : dlib/fast
 
-main.o: main.cpp.o
+FaceMorph/faceMorph.o: FaceMorph/faceMorph.cpp.o
 
-.PHONY : main.o
+.PHONY : FaceMorph/faceMorph.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/eye_detection.dir/build.make CMakeFiles/eye_detection.dir/main.cpp.o
-.PHONY : main.cpp.o
+FaceMorph/faceMorph.cpp.o:
+	$(MAKE) -f CMakeFiles/eye_detection.dir/build.make CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.o
+.PHONY : FaceMorph/faceMorph.cpp.o
 
-main.i: main.cpp.i
+FaceMorph/faceMorph.i: FaceMorph/faceMorph.cpp.i
 
-.PHONY : main.i
+.PHONY : FaceMorph/faceMorph.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/eye_detection.dir/build.make CMakeFiles/eye_detection.dir/main.cpp.i
-.PHONY : main.cpp.i
+FaceMorph/faceMorph.cpp.i:
+	$(MAKE) -f CMakeFiles/eye_detection.dir/build.make CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.i
+.PHONY : FaceMorph/faceMorph.cpp.i
 
-main.s: main.cpp.s
+FaceMorph/faceMorph.s: FaceMorph/faceMorph.cpp.s
 
-.PHONY : main.s
+.PHONY : FaceMorph/faceMorph.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/eye_detection.dir/build.make CMakeFiles/eye_detection.dir/main.cpp.s
-.PHONY : main.cpp.s
+FaceMorph/faceMorph.cpp.s:
+	$(MAKE) -f CMakeFiles/eye_detection.dir/build.make CMakeFiles/eye_detection.dir/FaceMorph/faceMorph.cpp.s
+.PHONY : FaceMorph/faceMorph.cpp.s
 
 # Help Target
 help:
@@ -173,9 +173,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... eye_detection"
 	@echo "... dlib"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... FaceMorph/faceMorph.o"
+	@echo "... FaceMorph/faceMorph.i"
+	@echo "... FaceMorph/faceMorph.s"
 .PHONY : help
 
 
