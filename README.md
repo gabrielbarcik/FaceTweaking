@@ -16,3 +16,6 @@ Open a shell and run
 $ sudo ./face-tweak
 ```
 
+## Acknowledgements
+
+https://github.com/spmallick/learnopencv
