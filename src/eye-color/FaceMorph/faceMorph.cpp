@@ -268,7 +268,7 @@ int main( int argc, char** argv)
         float x, y;
         float x1 = points1[i].x, x2 = points2[i].x , y1 = points1[i].y, y2 = points2[i].y;
 
-        x = x1;  /// we map the regions of image2 to the exact regions of image1
+        x = x1;  /// ALTERATION: we map the regions of image2 to the exact regions of image1
         y =  y1;
         
         points.push_back(Point2f(x,y));
