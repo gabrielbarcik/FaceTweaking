@@ -248,11 +248,11 @@ int main( int argc, char** argv)
     //convert Mat to float data type
     img1.convertTo(img1, CV_32F);
     img2.convertTo(img2, CV_32F);
-    
-    
+
+
     //empty average image
     Mat imgMorph = img1.clone();
-    
+
 
     //Read points
     vector<Point2f> points1, points2;

@@ -8,13 +8,26 @@
 #include <dlib/image_processing/shape_predictor.h>
 #include <dlib/image_processing/render_face_detections.h>
 #include <dlib/image_processing.h>
+//#include <dlib/gui_widgets.h>
 #include <dlib/image_io.h>
 
-#define DATA_FILENAME "../shape_predictor_68_face_landmarks.dat"
-
 using namespace cv;
+
 using namespace std;
 
+#define LEFT_EYE_BEGIN 36 // index of leftmost eye on the image
+#define LEFT_EYE_END 41
+#define RIGHT_EYE_BEGIN 42 // index of rightmost eye on the image
+#define RIGHT_EYE_END 47
+#define DATA_FILENAME "../shape_predictor_68_face_landmarks.dat"
+#define GLASS_LEFT_CENTER Point2f(57,110)
+#define GLASS_LEFT_TOP Point2f(57,100)
+#define GLASS_RIGHT_CENTER Point2f(170,110)
+#define TRIANGLE_FILENAME "../tri.txt"
+
+typedef vector<Point2f> Triangle;
+
+// calculate facial landmarks
 void calculateLandmarks(string filename, vector<Point2f> & output)
 {
     ifstream ifs(filename+".txt");
@@ -77,17 +90,109 @@ void calculateLandmarks(string filename, vector<Point2f> & output)
     }
 }
 
+void applyAffineTransform(Mat &warpImage, Mat &src, vector<Point2f> &srcTri, vector<Point2f> &dstTri)
+{
 
+    // Given a pair of triangles, find the affine transform.
+    Mat warpMat = getAffineTransform( srcTri, dstTri );
 
-int main() {
-    string filename("../hillary_clinton.jpg");
-    Mat img = imread(filename);
-    img.convertTo(img, CV_32F);
+    // Apply the Affine Transform just found to the src image
+    warpAffine( src, warpImage, warpMat, warpImage.size());
+}
 
+void morphImages(Mat &src, Mat &dst, Triangle &triSrc, Triangle &triDst)
+{
+    Mat warpImage = Mat::zeros(dst.size().height, dst.size().width, src.type());
 
-    vector<Point2f> points;
-    calculateLandmarks(filename, points);
-    imshow("img", img);
+    circle(src, triSrc[0], 3, Scalar(255, 0, 0));
+    circle(src, triSrc[1], 3, Scalar(255, 0, 0));
+    circle(src, triSrc[2], 3, Scalar(255, 0, 0));
+
+    circle(dst, triDst[0], 3, Scalar(255, 0, 0));
+    circle(dst, triDst[1], 3, Scalar(255, 0, 0));
+    circle(dst, triDst[2], 3, Scalar(255, 0, 0));
+
+    imshow("s",src/255.0);
     waitKey(0);
+    imshow("a", dst/255.0);
+    waitKey(0);
+
+    applyAffineTransform(warpImage, src, triSrc, triDst);
+
+    imshow("b", warpImage/255.0);
+    waitKey(0);
+
+    // Copy warped image to the output image
+    for(int y = 0; y < warpImage.rows; y++)
+    {
+        for(int x = 0; x < warpImage.cols; x++)
+        {
+            if(warpImage.at<float>(x, y) != 0 )
+            {
+               dst.at<float>(x, y) = warpImage.at<float>(x, y);
+            }
+        }
+
+    }
+
+}
+
+int main( int argc, char** argv)
+{
+    string imgFilename("../hillary_clinton.jpg");
+    string glassesFilename("../glasses.png");
+
+    //Read input images
+    Mat img = imread(imgFilename);
+    Mat glasses = imread(glassesFilename);
+    bitwise_not ( glasses, glasses );
+
+    //convert Mat to float data type
+    img.convertTo(img, CV_32F);
+    glasses.convertTo(glasses, CV_32F);
+
+    /*
+    for(int i=0; i<glasses.rows; i++)
+    {
+        for(int j=0; j<glasses.rows; j++)
+        {
+            cout<< img.at<float>(i, j)<<endl;
+            waitKey(0);
+        }
+
+    }
+
+    return 0;*/
+
+
+    //Read points
+    vector<Point2f> landmarks;
+    calculateLandmarks(imgFilename, landmarks);
+
+    Point2f leftTop = landmarks[37];
+    Point2f leftCenter = Point2f(0, 0), rightCenter = Point2f(0, 0);
+    for(int i=LEFT_EYE_BEGIN; i<=LEFT_EYE_END; i++)
+    {
+        leftCenter+=landmarks[i];
+    }
+    leftCenter/=(LEFT_EYE_END-LEFT_EYE_BEGIN+1);
+
+    for(int i=RIGHT_EYE_BEGIN; i<=RIGHT_EYE_END; i++)
+    {
+        rightCenter+=landmarks[i];
+    }
+    rightCenter/=(RIGHT_EYE_END-RIGHT_EYE_BEGIN+1);
+
+    vector<Point2f> triGlasses,triImg;
+    triGlasses.push_back(GLASS_LEFT_CENTER); triGlasses.push_back(GLASS_RIGHT_CENTER); triGlasses.push_back(GLASS_LEFT_TOP);
+    triImg.push_back(leftCenter); triImg.push_back(rightCenter); triImg.push_back(leftTop);
+
+    morphImages(glasses, img, triGlasses, triImg);
+
+
+    // Display Result
+    imshow("Morphed Face", img/255.0);
+    waitKey(0);
+
     return 0;
 }

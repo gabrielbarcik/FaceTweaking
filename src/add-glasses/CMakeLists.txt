@@ -9,6 +9,7 @@ add_subdirectory(/usr/lib/dlib-19.9/dlib dlib)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(add_glasses main.cpp)
+#add_executable(add_glasses webcam.cpp)
 
 target_link_libraries(add_glasses ${OpenCV_LIBS})
 
