@@ -1,0 +1,13 @@
+/home/barcik/clion-2017.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/barcik/workspace/Modal/git_Project
+-- Searching for BLAS and LAPACK
+-- Searching for BLAS and LAPACK
+-- Checking for module 'cblas'
+--   No package 'cblas' found
+-- Checking for module 'lapack'
+--   Found lapack, version 3.10.2
+-- Found OpenBLAS library
+-- Found LAPACK library
+-- C++11 activated.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/barcik/workspace/Modal/git_Project/cmake-build-debug
