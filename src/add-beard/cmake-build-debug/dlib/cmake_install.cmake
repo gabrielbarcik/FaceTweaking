@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/barcik/workspace/Modal/git_Project/cmake-build-debug/dlib/dlib/cmake_install.cmake")
+  include("/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib/cmake_install.cmake")
 
 endif()
 

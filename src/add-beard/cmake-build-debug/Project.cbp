@@ -5,41 +5,41 @@
 		<Option title="Project"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\dlib\;CMake Files\..\..\..\dlib\dlib\;CMake Files\..\..\..\dlib\dlib\cmake_utils\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\dlib\;CMake Files\..\..\..\..\dlib\dlib\;CMake Files\..\..\..\..\dlib\dlib\cmake_utils\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/barcik/workspace/Modal/git_Project/cmake-build-debug"/>
+				<Option working_dir="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/barcik/workspace/Modal/git_Project/cmake-build-debug"/>
+				<Option working_dir="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/barcik/workspace/Modal/git_Project/cmake-build-debug"/>
+				<Option working_dir="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="seamless">
-				<Option output="/home/barcik/workspace/Modal/git_Project/cmake-build-debug/seamless" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/barcik/workspace/Modal/git_Project/cmake-build-debug"/>
+				<Option output="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/seamless" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -56,15 +56,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 seamless"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 seamless"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="seamless/fast">
-				<Option output="/home/barcik/workspace/Modal/git_Project/cmake-build-debug/seamless" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/barcik/workspace/Modal/git_Project/cmake-build-debug"/>
+				<Option output="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/seamless" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -81,15 +81,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 seamless/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 seamless/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main">
-				<Option output="/home/barcik/workspace/Modal/git_Project/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/barcik/workspace/Modal/git_Project/cmake-build-debug"/>
+				<Option output="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -106,15 +106,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main/fast">
-				<Option output="/home/barcik/workspace/Modal/git_Project/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/barcik/workspace/Modal/git_Project/cmake-build-debug"/>
+				<Option output="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -131,15 +131,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dlib">
-				<Option output="/home/barcik/workspace/Modal/git_Project/cmake-build-debug/dlib/dlib/libdlib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/barcik/workspace/Modal/git_Project/cmake-build-debug/dlib/dlib"/>
+				<Option output="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib/libdlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -154,15 +154,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 dlib"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 dlib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dlib/fast">
-				<Option output="/home/barcik/workspace/Modal/git_Project/cmake-build-debug/dlib/dlib/libdlib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/barcik/workspace/Modal/git_Project/cmake-build-debug/dlib/dlib"/>
+				<Option output="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib/libdlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -177,13 +177,19 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 dlib/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/workspace/Modal/git_Project/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 dlib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/seamless.cpp">
+			<Option target="seamless"/>
+		</Unit>
 		<Unit filename="/home/barcik/dlib/dlib/base64/base64_kernel_1.cpp">
 			<Option target="dlib"/>
 		</Unit>
@@ -514,59 +520,53 @@
 		<Unit filename="/home/barcik/dlib/dlib/unicode/unicode.h">
 			<Option target="dlib"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/main.cpp">
-			<Option target="main"/>
-		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/seamless.cpp">
-			<Option target="seamless"/>
-		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/CMakeLists.txt">
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../dlib/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\dlib\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../dlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\dlib\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../dlib/dlib/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\dlib\dlib\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../dlib/dlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\dlib\dlib\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../dlib/dlib/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\..\dlib\dlib\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../dlib/dlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\dlib\dlib\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../dlib/dlib/cmake_utils/set_compiler_specific_options.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\dlib\dlib\cmake_utils\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../dlib/dlib/cmake_utils/set_compiler_specific_options.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\dlib\dlib\cmake_utils\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../dlib/dlib/cmake_utils/release_build_by_default">
-			<Option virtualFolder="CMake Files\..\..\..\dlib\dlib\cmake_utils\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../dlib/dlib/cmake_utils/release_build_by_default">
+			<Option virtualFolder="CMake Files\..\..\..\..\dlib\dlib\cmake_utils\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../dlib/dlib/cmake_utils/use_cpp_11.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\dlib\dlib\cmake_utils\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../dlib/dlib/cmake_utils/use_cpp_11.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\dlib\dlib\cmake_utils\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../dlib/dlib/cmake_utils/cmake_find_blas.txt">
-			<Option virtualFolder="CMake Files\..\..\..\dlib\dlib\cmake_utils\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../dlib/dlib/cmake_utils/cmake_find_blas.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\dlib\dlib\cmake_utils\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../dlib/dlib/cmake_utils/set_compiler_specific_options.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\dlib\dlib\cmake_utils\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../dlib/dlib/cmake_utils/set_compiler_specific_options.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\dlib\dlib\cmake_utils\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../dlib/dlib/cmake_utils/release_build_by_default">
-			<Option virtualFolder="CMake Files\..\..\..\dlib\dlib\cmake_utils\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../dlib/dlib/cmake_utils/release_build_by_default">
+			<Option virtualFolder="CMake Files\..\..\..\..\dlib\dlib\cmake_utils\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../dlib/dlib/cmake_utils/use_cpp_11.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\dlib\dlib\cmake_utils\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../dlib/dlib/cmake_utils/use_cpp_11.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\dlib\dlib\cmake_utils\"/>
 		</Unit>
-		<Unit filename="/home/barcik/workspace/Modal/git_Project/../../../dlib/dlib/cmake_utils/cmake_find_blas.txt">
-			<Option virtualFolder="CMake Files\..\..\..\dlib\dlib\cmake_utils\"/>
+		<Unit filename="/home/barcik/Repositorios/FaceTweaking/src/add-beard/../../../../dlib/dlib/cmake_utils/cmake_find_blas.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\dlib\dlib\cmake_utils\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

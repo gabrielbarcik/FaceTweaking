@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/barcik/workspace/Modal/git_Project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dfc4b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dfc4b.dir/build.make CMakeFiles/cmTC_dfc4b.dir/build
-make[1]: Entering directory '/home/barcik/workspace/Modal/git_Project/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dfc4b.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_dfc4b.dir/CheckSymbolExists.c.o   -c /home/barcik/workspace/Modal/git_Project/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_dfc4b
-/home/barcik/clion-2017.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfc4b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dfc4b.dir/CheckSymbolExists.c.o  -o cmTC_dfc4b 
-CMakeFiles/cmTC_dfc4b.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_ffc86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ffc86.dir/build.make CMakeFiles/cmTC_ffc86.dir/build
+make[1]: Entering directory '/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffc86.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ffc86.dir/CheckSymbolExists.c.o   -c /home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ffc86
+/home/barcik/clion-2017.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc86.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ffc86.dir/CheckSymbolExists.c.o  -o cmTC_ffc86 
+CMakeFiles/cmTC_ffc86.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_dfc4b.dir/build.make:97: recipe for target 'cmTC_dfc4b' failed
-make[1]: *** [cmTC_dfc4b] Error 1
-make[1]: Leaving directory '/home/barcik/workspace/Modal/git_Project/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_dfc4b/fast' failed
-make: *** [cmTC_dfc4b/fast] Error 2
+CMakeFiles/cmTC_ffc86.dir/build.make:97: recipe for target 'cmTC_ffc86' failed
+make[1]: *** [cmTC_ffc86] Error 1
+make[1]: Leaving directory '/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ffc86/fast' failed
+make: *** [cmTC_ffc86/fast] Error 2
 
-File /home/barcik/workspace/Modal/git_Project/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,64 +34,43 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/barcik/workspace/Modal/git_Project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9e62a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9e62a.dir/build.make CMakeFiles/cmTC_9e62a.dir/build
-make[1]: Entering directory '/home/barcik/workspace/Modal/git_Project/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9e62a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9e62a.dir/CheckFunctionExists.c.o   -c /home/barcik/clion-2017.3.2/bin/cmake/share/cmake-3.9/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9e62a
-/home/barcik/clion-2017.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e62a.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_9e62a.dir/CheckFunctionExists.c.o  -o cmTC_9e62a -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_c46d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c46d2.dir/build.make CMakeFiles/cmTC_c46d2.dir/build
+make[1]: Entering directory '/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c46d2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c46d2.dir/CheckFunctionExists.c.o   -c /home/barcik/clion-2017.3.2/bin/cmake/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c46d2
+/home/barcik/clion-2017.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c46d2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c46d2.dir/CheckFunctionExists.c.o  -o cmTC_c46d2 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_9e62a.dir/build.make:97: recipe for target 'cmTC_9e62a' failed
-make[1]: *** [cmTC_9e62a] Error 1
-make[1]: Leaving directory '/home/barcik/workspace/Modal/git_Project/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_9e62a/fast' failed
-make: *** [cmTC_9e62a/fast] Error 2
+CMakeFiles/cmTC_c46d2.dir/build.make:97: recipe for target 'cmTC_c46d2' failed
+make[1]: *** [cmTC_c46d2] Error 1
+make[1]: Leaving directory '/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c46d2/fast' failed
+make: *** [cmTC_c46d2/fast] Error 2
 
 
 Determining if the function sgesv exists failed with the following output:
-Change Dir: /home/barcik/workspace/Modal/git_Project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e7d85/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e7d85.dir/build.make CMakeFiles/cmTC_e7d85.dir/build
-make[1]: Entering directory '/home/barcik/workspace/Modal/git_Project/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e7d85.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv   -o CMakeFiles/cmTC_e7d85.dir/CheckFunctionExists.c.o   -c /home/barcik/clion-2017.3.2/bin/cmake/share/cmake-3.9/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e7d85
-/home/barcik/clion-2017.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7d85.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv    -rdynamic CMakeFiles/cmTC_e7d85.dir/CheckFunctionExists.c.o  -o cmTC_e7d85 /usr/lib/liblapack.so 
-CMakeFiles/cmTC_e7d85.dir/CheckFunctionExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_f137e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f137e.dir/build.make CMakeFiles/cmTC_f137e.dir/build
+make[1]: Entering directory '/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f137e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv   -o CMakeFiles/cmTC_f137e.dir/CheckFunctionExists.c.o   -c /home/barcik/clion-2017.3.2/bin/cmake/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f137e
+/home/barcik/clion-2017.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f137e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv    -rdynamic CMakeFiles/cmTC_f137e.dir/CheckFunctionExists.c.o  -o cmTC_f137e /usr/lib/liblapack.so 
+CMakeFiles/cmTC_f137e.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x10): undefined reference to `sgesv'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_e7d85.dir/build.make:98: recipe for target 'cmTC_e7d85' failed
-make[1]: *** [cmTC_e7d85] Error 1
-make[1]: Leaving directory '/home/barcik/workspace/Modal/git_Project/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_e7d85/fast' failed
-make: *** [cmTC_e7d85/fast] Error 2
-
-
-Determining if the function sgetrf_single exists failed with the following output:
-Change Dir: /home/barcik/workspace/Modal/git_Project/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_7e4c0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7e4c0.dir/build.make CMakeFiles/cmTC_7e4c0.dir/build
-make[1]: Entering directory '/home/barcik/workspace/Modal/git_Project/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7e4c0.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgetrf_single   -o CMakeFiles/cmTC_7e4c0.dir/CheckFunctionExists.c.o   -c /home/barcik/clion-2017.3.2/bin/cmake/share/cmake-3.9/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7e4c0
-/home/barcik/clion-2017.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e4c0.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgetrf_single    -rdynamic CMakeFiles/cmTC_7e4c0.dir/CheckFunctionExists.c.o  -o cmTC_7e4c0 /usr/lib/libcblas.so 
-CMakeFiles/cmTC_7e4c0.dir/CheckFunctionExists.c.o: In function `main':
-CheckFunctionExists.c:(.text+0x10): undefined reference to `sgetrf_single'
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_7e4c0.dir/build.make:98: recipe for target 'cmTC_7e4c0' failed
-make[1]: *** [cmTC_7e4c0] Error 1
-make[1]: Leaving directory '/home/barcik/workspace/Modal/git_Project/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_7e4c0/fast' failed
-make: *** [cmTC_7e4c0/fast] Error 2
+CMakeFiles/cmTC_f137e.dir/build.make:98: recipe for target 'cmTC_f137e' failed
+make[1]: *** [cmTC_f137e] Error 1
+make[1]: Leaving directory '/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f137e/fast' failed
+make: *** [cmTC_f137e/fast] Error 2
 
 

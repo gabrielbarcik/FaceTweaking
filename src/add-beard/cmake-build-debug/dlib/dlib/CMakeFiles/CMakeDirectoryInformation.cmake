@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/barcik/dlib")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/barcik/workspace/Modal/git_Project/cmake-build-debug")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

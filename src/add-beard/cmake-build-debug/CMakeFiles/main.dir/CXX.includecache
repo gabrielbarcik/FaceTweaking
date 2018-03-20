@@ -6,6 +6,28 @@
 
 #IncludeRegexTransform: 
 
+/home/barcik/Repositorios/FaceTweaking/src/add-beard/main.cpp
+iostream
+-
+dlib/opencv.h
+-
+opencv2/highgui/highgui.hpp
+-
+dlib/image_processing/frontal_face_detector.h
+-
+dlib/image_processing/render_face_detections.h
+-
+dlib/image_processing.h
+-
+opencv2/imgproc.hpp
+-
+unordered_map
+-
+opencv/cv.hpp
+-
+dlib/image_io.h
+-
+
 /home/barcik/dlib/dlib/../dlib/algs.h
 dlib_basic_cpp_build_tutorial.txt
 /home/barcik/dlib/dlib/../dlib/dlib_basic_cpp_build_tutorial.txt
@@ -7513,28 +7535,6 @@ string
 /home/barcik/dlib/dlib/../dlib/interfaces/map_pair.h
 ../error.h
 /home/barcik/dlib/dlib/../dlib/error.h
-
-/home/barcik/workspace/Modal/git_Project/main.cpp
-iostream
--
-dlib/opencv.h
--
-opencv2/highgui/highgui.hpp
--
-dlib/image_processing/frontal_face_detector.h
--
-dlib/image_processing/render_face_detections.h
--
-dlib/image_processing.h
--
-opencv2/imgproc.hpp
--
-unordered_map
--
-opencv/cv.hpp
--
-dlib/image_io.h
--
 
 /usr/local/include/opencv/cv.h
 opencv2/core/core_c.h
