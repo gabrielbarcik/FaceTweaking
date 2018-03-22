@@ -18,6 +18,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/victorvianna/Desktop/FaceTweaking/engine/cmake-build-debug/dlib/CMakeFiles/dlib.dir/DependInfo.cmake"
+  "/home/victorvianna/Desktop/FaceTweaking/engine/cmake-build-debug/CMakeFiles/features.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

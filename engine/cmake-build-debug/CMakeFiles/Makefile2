@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/victorvianna/Desktop/FaceTweaking/engine/cmake-build-de
 # Target rules for target CMakeFiles/engine.dir
 
 # All Build rule for target.
+CMakeFiles/engine.dir/all: CMakeFiles/features.dir/all
 CMakeFiles/engine.dir/all: dlib/CMakeFiles/dlib.dir/all
 	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/depend
 	$(MAKE) -f CMakeFiles/engine.dir/build.make CMakeFiles/engine.dir/build
@@ -76,7 +77,7 @@ all: CMakeFiles/engine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victorvianna/Desktop/FaceTweaking/engine/cmake-build-debug/CMakeFiles 58
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victorvianna/Desktop/FaceTweaking/engine/cmake-build-debug/CMakeFiles 61
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/victorvianna/Desktop/FaceTweaking/engine/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/engine.dir/rule
@@ -93,6 +94,43 @@ CMakeFiles/engine.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/engine.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/features.dir
+
+# All Build rule for target.
+CMakeFiles/features.dir/all: dlib/CMakeFiles/dlib.dir/all
+	$(MAKE) -f CMakeFiles/features.dir/build.make CMakeFiles/features.dir/depend
+	$(MAKE) -f CMakeFiles/features.dir/build.make CMakeFiles/features.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victorvianna/Desktop/FaceTweaking/engine/cmake-build-debug/CMakeFiles --progress-num=59,60,61 "Built target features"
+.PHONY : CMakeFiles/features.dir/all
+
+# Include target in all.
+all: CMakeFiles/features.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/features.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victorvianna/Desktop/FaceTweaking/engine/cmake-build-debug/CMakeFiles 59
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/features.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victorvianna/Desktop/FaceTweaking/engine/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/features.dir/rule
+
+# Convenience name for target.
+features: CMakeFiles/features.dir/rule
+
+.PHONY : features
+
+# clean rule for target.
+CMakeFiles/features.dir/clean:
+	$(MAKE) -f CMakeFiles/features.dir/build.make CMakeFiles/features.dir/clean
+.PHONY : CMakeFiles/features.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/features.dir/clean
 
 .PHONY : clean
 

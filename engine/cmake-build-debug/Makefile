@@ -124,6 +124,19 @@ engine/fast:
 .PHONY : engine/fast
 
 #=============================================================================
+# Target rules for targets named features
+
+# Build rule for target.
+features: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 features
+.PHONY : features
+
+# fast build rule for target.
+features/fast:
+	$(MAKE) -f CMakeFiles/features.dir/build.make CMakeFiles/features.dir/build
+.PHONY : features/fast
+
+#=============================================================================
 # Target rules for targets named dlib
 
 # Build rule for target.
@@ -135,6 +148,60 @@ dlib: cmake_check_build_system
 dlib/fast:
 	$(MAKE) -f dlib/CMakeFiles/dlib.dir/build.make dlib/CMakeFiles/dlib.dir/build
 .PHONY : dlib/fast
+
+home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.o: home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.cpp.o
+
+.PHONY : home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.o
+
+# target to build an object file
+home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.cpp.o:
+	$(MAKE) -f CMakeFiles/features.dir/build.make CMakeFiles/features.dir/home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.cpp.o
+.PHONY : home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.cpp.o
+
+home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.i: home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.cpp.i
+
+.PHONY : home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.i
+
+# target to preprocess a source file
+home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.cpp.i:
+	$(MAKE) -f CMakeFiles/features.dir/build.make CMakeFiles/features.dir/home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.cpp.i
+.PHONY : home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.cpp.i
+
+home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.s: home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.cpp.s
+
+.PHONY : home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.s
+
+# target to generate assembly for a file
+home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.cpp.s:
+	$(MAKE) -f CMakeFiles/features.dir/build.make CMakeFiles/features.dir/home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.cpp.s
+.PHONY : home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.cpp.s
+
+home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.o: home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.cpp.o
+
+.PHONY : home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.o
+
+# target to build an object file
+home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.cpp.o:
+	$(MAKE) -f CMakeFiles/features.dir/build.make CMakeFiles/features.dir/home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.cpp.o
+.PHONY : home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.cpp.o
+
+home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.i: home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.cpp.i
+
+.PHONY : home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.i
+
+# target to preprocess a source file
+home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.cpp.i:
+	$(MAKE) -f CMakeFiles/features.dir/build.make CMakeFiles/features.dir/home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.cpp.i
+.PHONY : home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.cpp.i
+
+home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.s: home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.cpp.s
+
+.PHONY : home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.s
+
+# target to generate assembly for a file
+home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.cpp.s:
+	$(MAKE) -f CMakeFiles/features.dir/build.make CMakeFiles/features.dir/home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.cpp.s
+.PHONY : home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.cpp.s
 
 main.o: main.cpp.o
 
@@ -172,7 +239,14 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... engine"
+	@echo "... features"
 	@echo "... dlib"
+	@echo "... home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.o"
+	@echo "... home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.i"
+	@echo "... home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.s"
+	@echo "... home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.o"
+	@echo "... home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.i"
+	@echo "... home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

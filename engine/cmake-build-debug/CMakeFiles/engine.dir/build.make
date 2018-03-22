@@ -90,6 +90,8 @@ engine_EXTERNAL_OBJECTS =
 
 engine: CMakeFiles/engine.dir/main.cpp.o
 engine: CMakeFiles/engine.dir/build.make
+engine: dlib/libdlib.a
+engine: libfeatures.a
 engine: /usr/local/lib/libopencv_dnn.so.3.4.1
 engine: /usr/local/lib/libopencv_ml.so.3.4.1
 engine: /usr/local/lib/libopencv_objdetect.so.3.4.1
@@ -97,8 +99,6 @@ engine: /usr/local/lib/libopencv_shape.so.3.4.1
 engine: /usr/local/lib/libopencv_stitching.so.3.4.1
 engine: /usr/local/lib/libopencv_superres.so.3.4.1
 engine: /usr/local/lib/libopencv_videostab.so.3.4.1
-engine: /usr/local/lib/libopencv_viz.so.3.4.1
-engine: dlib/libdlib.a
 engine: /usr/local/lib/libopencv_calib3d.so.3.4.1
 engine: /usr/local/lib/libopencv_features2d.so.3.4.1
 engine: /usr/local/lib/libopencv_flann.so.3.4.1
@@ -108,7 +108,9 @@ engine: /usr/local/lib/libopencv_video.so.3.4.1
 engine: /usr/local/lib/libopencv_videoio.so.3.4.1
 engine: /usr/local/lib/libopencv_imgcodecs.so.3.4.1
 engine: /usr/local/lib/libopencv_imgproc.so.3.4.1
+engine: /usr/local/lib/libopencv_viz.so.3.4.1
 engine: /usr/local/lib/libopencv_core.so.3.4.1
+engine: dlib/libdlib.a
 engine: /usr/lib/x86_64-linux-gnu/libnsl.so
 engine: /usr/lib/x86_64-linux-gnu/libSM.so
 engine: /usr/lib/x86_64-linux-gnu/libICE.so

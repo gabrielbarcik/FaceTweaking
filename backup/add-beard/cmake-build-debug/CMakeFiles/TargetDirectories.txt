@@ -1,0 +1,9 @@
+/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/seamless.dir
+/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/CMakeFiles/main.dir
+/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/CMakeFiles/rebuild_cache.dir
+/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/CMakeFiles/edit_cache.dir
+/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib/CMakeFiles/rebuild_cache.dir
+/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib/CMakeFiles/edit_cache.dir
+/home/barcik/Repositorios/FaceTweaking/src/add-beard/cmake-build-debug/dlib/dlib/CMakeFiles/dlib.dir
