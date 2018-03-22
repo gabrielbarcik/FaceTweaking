@@ -14,6 +14,10 @@ BaseFeature::BaseFeature(int argc, char** argv)
 	imgIn = imread(fileIn);
 }
 
+BaseFeature::~BaseFeature(){
+
+}
+
 
 
 

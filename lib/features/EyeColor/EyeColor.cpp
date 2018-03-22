@@ -29,9 +29,14 @@ EyeColor::EyeColor (int argc, char** argv) : BaseFeature(argc, argv)
         throw("Number of arguments is not enough");
     fileSrc = string(argv[3]);
     imgSrc = imread(fileSrc);
-}    
+}
 
-void EyeColor::run ()
+EyeColor::~EyeColor () : ~BaseFeature()
+{
+    
+}        
+
+void EyeColor::calculateAndDisplay ()
 {        
     imgIn.convertTo(imgIn, CV_32F);
     imgSrc.convertTo(imgSrc, CV_32F);
@@ -44,7 +49,7 @@ void EyeColor::run ()
     vector<Point2f> pointsIn, pointsSrc, pointsOut;
     calculateLandmarks(fileIn, pointsIn);
     calculateLandmarks(fileSrc, pointsSrc);  
-    pointsOut = pointsIn;  /// ALTERATION: we map the regions of image2 to the exact regions of image1
+        pointsOut = pointsIn;  /// ALTERATION: we map the regions of image2 to the exact regions of image1
     
     vector<Triangle> triangles;
 

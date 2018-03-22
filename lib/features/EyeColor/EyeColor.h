@@ -29,7 +29,7 @@ typedef vector<int> Triangle;
 class EyeColor : public BaseFeature {
 public:
     EyeColor(int argc, char** argv);
-    void run ();
+    void calculateAndDisplay ();
 protected:
     Mat imgSrc; // image whose eyes we will extract
     string fileSrc;

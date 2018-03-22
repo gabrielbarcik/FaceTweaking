@@ -15,6 +15,7 @@ protected:
 	string fileIn;
 public:
 	BaseFeature(int argc, char** argv);
+	~BaseFeature();
 	virtual void calculateAndDisplay();
 };
 
