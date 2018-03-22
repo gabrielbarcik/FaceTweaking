@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/victorvianna/Desktop/FaceTweaking/engine/main.cpp
+../features/test_feature/test_feature.h
+/home/victorvianna/Desktop/FaceTweaking/features/test_feature/test_feature.h
+
+/home/victorvianna/Desktop/FaceTweaking/features/test_feature/test_feature.h
+iostream
+-
+test_feature.h
+/home/victorvianna/Desktop/FaceTweaking/features/test_feature/test_feature.h
+

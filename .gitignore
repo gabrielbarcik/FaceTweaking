@@ -1,2 +1,4 @@
-src/external
-src/scrap
+scrap
+# Compiled class file
+*.class
+
