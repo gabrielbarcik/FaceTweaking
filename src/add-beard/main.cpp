@@ -130,10 +130,9 @@ void beard_mask(dlib::full_object_detection &landmarks, std::vector<cv::Point2f>
 int main() {
 
     // Loading images
-    std::string image_name = "../tomcruise2.jpg";
-    std::string beard_name = "../whitebeard.jpg";
-//    std::string beard_name = "../whitebeard_resized.jpg";
-    std::string beard_resized_name = "../whitebeard_resized.jpg";
+    std::string image_name = "../barcik.jpg";
+    std::string beard_name = "../beardman_barcik.jpg";
+    std::string beard_resized_name = "../beardman_barcik.jpg";
     std::string full_morphed_name = "../fullmorphed.jpg";
     std::string mask_name = "../mask.jpg";
 
@@ -147,13 +146,8 @@ int main() {
         cv::resize(original_beard_image, beard_image, image.size(), 0, 0, cv::INTER_LINEAR);
         cv::imwrite(beard_resized_name, beard_image);
         beard_image = cv::imread(beard_resized_name);
+        return 0;
     }
-
-    std::cout << beard_image.size() << std::endl;
-    std::cout << original_beard_image.size() << std::endl;
-    std::cout << image.size() << std::endl;
-
-    return 0;
 
     // Convert Mat to float data type
     image.convertTo(image, CV_32F);
