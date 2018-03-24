@@ -1,6 +1,0 @@
-/home/victorvianna/Desktop/FaceTweaking/src/add-glasses/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/victorvianna/Desktop/FaceTweaking/src/add-glasses/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/victorvianna/Desktop/FaceTweaking/src/add-glasses/cmake-build-debug/CMakeFiles/add_glasses.dir
-/home/victorvianna/Desktop/FaceTweaking/src/add-glasses/cmake-build-debug/dlib/CMakeFiles/rebuild_cache.dir
-/home/victorvianna/Desktop/FaceTweaking/src/add-glasses/cmake-build-debug/dlib/CMakeFiles/edit_cache.dir
-/home/victorvianna/Desktop/FaceTweaking/src/add-glasses/cmake-build-debug/dlib/CMakeFiles/dlib.dir

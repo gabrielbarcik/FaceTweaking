@@ -1,6 +1,0 @@
-/home/victorvianna/Desktop/FaceTweaking/features/eye-color/backup/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/victorvianna/Desktop/FaceTweaking/features/eye-color/backup/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/victorvianna/Desktop/FaceTweaking/features/eye-color/backup/cmake-build-debug/CMakeFiles/eye_detection.dir
-/home/victorvianna/Desktop/FaceTweaking/features/eye-color/backup/cmake-build-debug/dlib/CMakeFiles/rebuild_cache.dir
-/home/victorvianna/Desktop/FaceTweaking/features/eye-color/backup/cmake-build-debug/dlib/CMakeFiles/edit_cache.dir
-/home/victorvianna/Desktop/FaceTweaking/features/eye-color/backup/cmake-build-debug/dlib/CMakeFiles/dlib.dir
