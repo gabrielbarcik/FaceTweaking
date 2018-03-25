@@ -3,8 +3,8 @@
 
 Scalable application for tweaking a photo of a face. Ex: Adding beard, changing eye color, making her smile
 
-<img src="https://github.com/victorvianna/FaceTweaking/tree/master/screenshots/eyes-screenshot.png" alt="Changing eye color" align="middle">
-<img src="https://github.com/victorvianna/FaceTweaking/tree/master/screenshots/beard-screenshot.png" alt="Beard addition" align="middle">
+![Eye color changing](https://raw.githubusercontent.com/victorvianna/FaceTweaking/master/screenshots/eyes-screenshot.png )  
+![Beard addition](https://raw.githubusercontent.com/victorvianna/FaceTweaking/master/screenshots/beard-screenshot.png )  
 
 Keywords: Image morphing, seamless cloning, factory design pattern
 
