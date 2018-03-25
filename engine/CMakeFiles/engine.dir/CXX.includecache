@@ -15,12 +15,12 @@ iostream
 /home/victorvianna/Desktop/FaceTweaking/lib/all_headers.h
 ../lib/features/BaseFeature.h
 /home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.h
+../lib/features/add_beard/add_beard.h
+/home/victorvianna/Desktop/FaceTweaking/lib/features/add_beard/add_beard.h
 ../lib/features/add_smile/add_smile.h
 /home/victorvianna/Desktop/FaceTweaking/lib/features/add_smile/add_smile.h
-../lib/features/AddBeard/AddBeard.h
-/home/victorvianna/Desktop/FaceTweaking/lib/features/AddBeard/AddBeard.h
-../lib/features/EyeColor/EyeColor.h
-/home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.h
+../lib/features/eye_color/eye_color.h
+/home/victorvianna/Desktop/FaceTweaking/lib/features/eye_color/eye_color.h
 
 /home/victorvianna/Desktop/FaceTweaking/lib/dlib-19.9/dlib/../dlib/algs.h
 dlib_basic_cpp_build_tutorial.txt
@@ -7402,7 +7402,15 @@ vector
 platform.h
 /home/victorvianna/Desktop/FaceTweaking/lib/dlib-19.9/dlib/../dlib/platform.h
 
-/home/victorvianna/Desktop/FaceTweaking/lib/features/AddBeard/AddBeard.h
+/home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.h
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+string
+-
+
+/home/victorvianna/Desktop/FaceTweaking/lib/features/add_beard/add_beard.h
 ../BaseFeature.h
 /home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.h
 iostream
@@ -7426,15 +7434,7 @@ opencv/cv.hpp
 dlib/image_io.h
 -
 
-/home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.h
-opencv2/imgproc/imgproc.hpp
--
-opencv2/highgui/highgui.hpp
--
-string
--
-
-/home/victorvianna/Desktop/FaceTweaking/lib/features/EyeColor/EyeColor.h
+/home/victorvianna/Desktop/FaceTweaking/lib/features/add_smile/add_smile.h
 ../BaseFeature.h
 /home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.h
 opencv2/imgproc/imgproc.hpp
@@ -7460,7 +7460,7 @@ dlib/image_processing.h
 dlib/image_io.h
 -
 
-/home/victorvianna/Desktop/FaceTweaking/lib/features/add_smile/add_smile.h
+/home/victorvianna/Desktop/FaceTweaking/lib/features/eye_color/eye_color.h
 ../BaseFeature.h
 /home/victorvianna/Desktop/FaceTweaking/lib/features/BaseFeature.h
 opencv2/imgproc/imgproc.hpp
