@@ -28,7 +28,7 @@ $ bash RUN.sh
 
 ## Scalability: Implementing new features
 
-To implement a new feature, it suffices to create a new folder in lib/features that contains YourClass.h/YourClass.cpp (inheriting from BaseFeature) and a 'media' directory with the .jpg images you will use during the morphing. You also need to adapt engine/main.cpp accordingly.
+To implement a new feature, it suffices to create a new folder in lib/features that contains YourClass.h/YourClass.cpp (inheriting from BaseFeature) and a 'media' directory with the images you will use during the morphing. You also need to adapt engine/main.cpp accordingly.
 
 ## Acknowledgements
 
